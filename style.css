@@ -7,6 +7,11 @@
     display: flex;
     padding: 15px 0 0 5px;
     text-align: left;
-    ;
+}
 
+.about-me {
+    padding: 20px 0 0 10px;
+}
+.habilitys {
+    padding-top: 20px;
 }
