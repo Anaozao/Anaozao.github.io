@@ -10,7 +10,7 @@ body {
 
 .header {
     
-    background-color: indianred;
+    background-color: rgb(255, 213, 213);
     margin-left: 5px;
     width: 15%;
     
@@ -24,7 +24,7 @@ body {
 }
 
 .header-container a{
-    color: black;
+    
     text-decoration: none;
     text-align: right;
     padding-right: 10px;
@@ -48,8 +48,18 @@ body {
     padding: 0% 0px 0 5px;
 }
 .skills h3 {
-    padding-bottom: 10px;
+    padding: 20px 0 15px 0;
 }
 .skills ul {
     list-style-type: none;
+}
+
+.photo {
+    padding: 50px 0 0 5px;
+}
+
+.photo a{
+    
+    text-decoration: none;
+    
 }
