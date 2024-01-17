@@ -5,6 +5,11 @@
 
 body {
     background-color: rgb(91, 91, 192);
+    background-image: url(fundo.jpg);
+    color: snow;
+   
+
+}
     
 .header {
     
@@ -34,6 +39,11 @@ body {
     padding: 15px 0 0 5px;
     margin-right: 60%;
 }
+
+.about-me-containers h1 {
+    
+}
+
 
 #description {
     padding-top: 15px;
