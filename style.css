@@ -13,7 +13,8 @@ body {
     
 .header {
     
-    background-color: rgb(255, 213, 213);
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: snow;
     margin-left: 5px;
     width: 17%;
     
@@ -71,11 +72,11 @@ body {
 .links {
 
     padding: 50px 0 0 5px;
-    background-color: rgb(255, 213, 213);
     margin-right: 80%;
     padding-top: 0px;
     margin-top: 50px;
-    
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color: snow;
     
 }
 
