@@ -82,3 +82,7 @@ body {
     font-weight: bold;
 }
 
+.about-me img {
+    border-radius: 100%;
+}
+
