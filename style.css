@@ -3,78 +3,30 @@
     padding: 0;
 }
 
-body {
-    background: rgb(91, 91, 192) url('fundo.jpg');
-    color: snow;
+header {
+    width: 100%;
+    background-color: black;
+    padding: 15px 0;
 }
 
-.header {
-    -webkit-text-stroke: 0.2px;
-    -webkit-text-stroke-color: snow;
-    margin-left: 5px;
-    width: 17%;
-}
-
-.header li {
-    display: inline-block;
-}
-
-.header-container a {
-    text-decoration: none;
+.header-section {
     text-align: right;
-    padding-right: 10px;
-    font-weight: bold;
-}
 
-.about-me-containers {
-    padding: 80px 0;
 }
-
-.about-me-containers img,
-.sobre-mim {
-    padding: 15px 0 0 5px;
-    display: inline-block;
-}
-
-.about-me-containers h1 {
-    text-align: center;
-}
-
-#description {
-    padding-top: 15px;
-}
-
-.infos,
-.skills {
-    padding: 10px 0;
-}
-
-.skills h3 {
-    padding: 20px 0 15px 0;
-}
-
-.skills ul {
-    list-style-type: none;
-}
-
-.photo,
-.links {
-    padding: 50px 0 0 5px;
-}
-
-.links {
-    margin-right: 80%;
-    margin-top: 50px;
-    -webkit-text-stroke: 0.5px;
-    -webkit-text-stroke-color: snow;
-}
-
-.links li {
-    padding-right: 20px;
-    display: inline-block;
-}
-
-.links a {
+.header-section nav a{
+    padding-right: 50px;
     text-decoration: none;
-    font-weight: bold;
+    color: rgb(24, 116, 255);
+}
+
+main {
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+}
+.main-section h1 {
+    padding-bottom: 10px;
+    color: snow;
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: center;
 }
