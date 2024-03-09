@@ -19,8 +19,18 @@ header h1 {
     padding: 5px 0;
 }
 
-#empty-header-div {
+#social-media-div {
     width: 192.38px;
+    display: flex;;
+}
+
+#social-media-div div a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.social-media {
+    padding-right: 30px;
 }
 
 #header-navs-container {
