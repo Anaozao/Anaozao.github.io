@@ -33,17 +33,6 @@ header h1 {
     padding-right: 30px;
 }
 
-#header-navs-container {
-    /* background-color: snow; */
-    width: 192.38;
-    display: flex;
-    justify-content: center;
-}
-
-.header-nav {
-    padding-left: 30px;
-}
-
 .nav-links {
     text-decoration: none;
     color: greenyellow
