@@ -3,30 +3,68 @@
     padding: 0;
 }
 
+body {
+    background-color:greenyellow;
+}
+
 header {
-    width: 100%;
-    background-color: black;
-    padding: 15px 0;
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.header-section {
-    text-align: right;
-
-}
-.header-section nav a{
-    padding-right: 50px;
-    text-decoration: none;
-    color: rgb(24, 116, 255);
-}
-
-main {
-    background-color: rgb(36, 36, 36);
-    width: 100%;
-}
-.main-section h1 {
-    padding-bottom: 10px;
+header h1 {
     color: snow;
-    font-size: 40px;
-    padding-top: 10px;
-    text-align: center;
+    padding: 5px 0;
+}
+
+#empty-header-div {
+    width: 192.38px;
+}
+
+#header-navs-container {
+    /* background-color: snow; */
+    width: 192.38;
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav {
+    padding-left: 30px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: greenyellow
+}
+
+#my-photo-div {
+    padding: 10px 0 0 5px;
+}
+
+#my-photo {
+    border-radius: 5px;
+}
+
+#about-me-div {
+    padding: 20px 0 0 5px;
+}
+
+#my-city {
+    color: black;
+}
+
+#trybe {
+    color: black;
+}
+
+#habilitys-title {
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+#another-skills-title{
+    padding-left: 5px;
+    font-size: 25px;
 }
