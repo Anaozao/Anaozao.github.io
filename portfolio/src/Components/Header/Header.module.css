@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  margin: 1% 8% 1% 8%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 231, 0, 0.397);
+}
+
+.name {
+  color: #00e700;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.navConstainer {
+  display: flex;
+}
+
+.navLinks {
+  color: rgb(0, 231, 0);
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+.navLinks:hover {
+  background-size: 100% 2px;
+}
