@@ -8,7 +8,6 @@ function Header() {
         <p className={styles.name}>Túlio Paris</p>
       </div>
       <div className={styles.navConstainer}>
-        <NavLink className={styles.navLinks} to='/perfil'>Perfil</NavLink>
         <NavLink className={styles.navLinks} to='/projects'>Projetos</NavLink>
         <NavLink className={styles.navLinks} >Contato</NavLink>
       </div>
