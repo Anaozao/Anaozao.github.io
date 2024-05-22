@@ -32,7 +32,7 @@ function AboutMe() {
           </li>
           <li className={styles.skills}>
             <p>Vite</p>
-            <img  className={styles.vite} src="./vite.svg" alt="vite logo" />
+            <img  className={styles.vite} src="Vite.js.svg" alt="vite logo" />
           </li>
           <li className={styles.skills}
           >

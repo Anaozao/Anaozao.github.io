@@ -1,0 +1,37 @@
+.card {
+  color: white;
+  display: flex;
+  height: 30%;
+  width: 40%;
+  margin-left: 8%;
+  margin-top: 2%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: rgba(110, 110, 110, 0.377);
+}
+
+.image {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.infoDiv {
+  margin-left: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+
+.link {
+  /* text-decoration: none; */
+  color: white;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+}
+
+.description {
+  font-size: 20px;
+}
