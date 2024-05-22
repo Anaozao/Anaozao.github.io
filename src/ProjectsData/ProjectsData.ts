@@ -10,7 +10,7 @@ export let projects = [
     id: 2,
     name: 'Wallet',
     image: 'wallet.png',
-    link: 'https://wallet-ten-murex.vercel.app/wallet',
+    link: 'https://wallet-ten-murex.vercel.app/',
     description: 'Uma aplicação simples, mas que utiliza de várias ferramentas, como React, React Router DOM, Redux, além de toda uma lógica. Nela você consegue adicionar despesas convertidas em algumas moedas internacionais (com cotação em tempo real), e também editar ou excluir. Acesse o link e confira.'
   }
 ]
