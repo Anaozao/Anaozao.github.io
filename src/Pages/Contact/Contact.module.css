@@ -3,8 +3,7 @@
   flex-direction: column;
   justify-content: center ;
   align-items: center;
-  margin: 1% 8% 1% 8%;
-  min-width: 300px;
+  /* margin: 1% 8% 1% 8%; */
   height: 95%;
 
 }
@@ -18,8 +17,8 @@
   flex-direction: column;
   gap: 15px;
   justify-content: center;
-  width: 50%;
-  height: 50%;
+  width: 600px;
+  height: 400px;
 }
 
 .form h1 {
@@ -63,5 +62,30 @@
 
   &:active {
     background-color: rgba(11, 11, 184, 0.397);
+  }
+}
+
+@media (max-width : 600px ) {
+
+  .main {
+    width: 100vw;
+  }
+
+  .form {
+    width: 330px;
+  }
+
+  .textareaDiv {
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+  }
+
+  .textarea {
+    max-width: 90%;
+  }
+
+  .sendBtn {
+    width: 150px;
   }
 }

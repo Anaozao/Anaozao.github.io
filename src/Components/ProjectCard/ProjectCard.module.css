@@ -1,25 +1,45 @@
 .card {
   color: white;
   display: flex;
-  height: 30%;
-  width: 40%;
+  gap: 10px;
+  min-height: 30%;
   margin-left: 8%;
+  margin-right: 8%;
   margin-top: 2%;
   padding: 10px 10px;
   border-radius: 10px;
   background-color: rgba(110, 110, 110, 0.377);
+  min-height: 300px;
+  width: 600px;;
+}
+
+.expandedCard {
+  color: white;
+  display: flex;
+  gap: 10px;
+  height: auto;
+  min-height: 30%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 2%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: rgba(110, 110, 110, 0.377);
+  width: 600px;;
 }
 
 .image {
-  width: 400px;
+  width: 300px;
   border-radius: 10px;
 }
 
 .infoDiv {
-  margin-left: 20px;
+  align-items: center;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
   gap: 10px;
+  text-align: center;
+  overflow-y: auto;
 }
 
 .link {
@@ -34,4 +54,50 @@
 
 .description {
   font-size: 20px;
+  overflow-y: hidden;
+}
+
+.expandBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2em;
+  height: 15px;
+  right: 10px;
+  bottom: 10px;
+}
+
+@media (max-width : 600px ) {
+  .card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 85%;
+    height: 500px;
+  }
+
+  .expandedCard {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 85%;
+  }
+
+  .btnDiv {
+    height: 15px;
+  }
+  .image {
+    width:90%;
+    border-radius: 10px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
 }

@@ -37,3 +37,13 @@
 .navLinks:hover {
   background-size: 100% 2px;
 }
+
+@media (max-width : 600px ) {
+  .name {
+    font-size: 22px;
+  }
+
+  .navLinks{
+    font-size: 17px;
+  }
+}

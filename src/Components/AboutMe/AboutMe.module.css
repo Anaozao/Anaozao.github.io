@@ -88,3 +88,72 @@
 .gitHub{
   font-size: 50px;
 }
+
+@media (max-width : 600px ) {
+  .aboutMe {
+    flex-wrap: wrap;
+    width: 90%px;
+  }
+
+  .title {
+    font-size: 32px;
+    align-self: center;
+  }
+
+  .paragraph {
+    font-size: 18px;
+  }
+
+  .skillsDiv h2 {
+    font-size: 30px;
+  }
+  
+  .skillsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+
+  .skills {
+    width: 60px;
+  }
+
+  .html {
+    color: orangered;
+    font-size: 30px;
+  }
+  
+  .css {
+    color: rgb(0, 68, 255);
+    font-size: 30px;
+  }
+  
+  .react {
+    color: rgb(0, 195, 255);
+    font-size: 30px;
+  }
+  
+  .vite {
+    width: 30px;
+  }
+  
+  .node {
+    color: rgb(2, 151, 2);
+    font-size: 30px;
+  }
+  
+  .vscode {
+    color: rgb(0, 140, 255);
+    font-size: 30px;
+  }
+  
+  .git {
+    color: orangered;
+    font-size: 30px;
+  }
+  
+  .gitHub{
+    font-size: 30px;
+  }
+}
