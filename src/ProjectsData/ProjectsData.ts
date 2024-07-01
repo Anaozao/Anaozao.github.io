@@ -12,5 +12,12 @@ export let projects = [
     image: 'wallet.png',
     link: 'https://wallet-ten-murex.vercel.app/',
     description: 'Uma aplicação simples, mas que utiliza de várias ferramentas, como React, React Router DOM, Redux, além de toda uma lógica. Nela você consegue adicionar despesas convertidas em algumas moedas internacionais (com cotação em tempo real), e também editar ou excluir. Acesse o link e confira.'
+  },
+  {
+    id: 3,
+    name: 'News',
+    image: 'News.png',
+    link: 'https://news-seven-ochre.vercel.app/',
+    description: 'Este projeto utiliza da API do IBGE para fazer a renderização de notícias. Nele você consegue filtrar por notícias mais recentes, atualizações, notícias novas, favoritar e pesquisar por títilo. Acesse o link e confira.'
   }
 ]
