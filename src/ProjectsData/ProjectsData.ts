@@ -17,7 +17,7 @@ export let projects = [
     id: 3,
     name: 'News',
     image: 'News.png',
-    link: 'https://news-seven-ochre.vercel.app/',
+    link: 'https://tulioparisnews.vercel.app/',
     description: 'Este projeto utiliza da API do IBGE para fazer a renderização de notícias. Nele você consegue filtrar por notícias mais recentes, atualizações, notícias novas, favoritar e pesquisar por títilo. Acesse o link e confira.'
   }
 ]
