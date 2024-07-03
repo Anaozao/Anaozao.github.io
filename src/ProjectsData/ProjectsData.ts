@@ -19,5 +19,12 @@ export let projects = [
     image: 'News.png',
     link: 'https://tulioparisnews.vercel.app/',
     description: 'Este projeto utiliza da API do IBGE para fazer a renderização de notícias. Nele você consegue filtrar por notícias mais recentes, atualizações, notícias novas, favoritar e pesquisar por títilo. Acesse o link e confira.'
+  },
+  {
+    id: 4,
+    name: 'Receitas',
+    image: 'Receitas.png',
+    link: 'https://tulioparisreceitas.vercel.app/',
+    description: 'Está é uma aplicação em que você pode realizar buscas por receitas de comidas ou bebidas, pesquisando por nome, ingrediente, primeira letra, ou filtrando por categoria. Pode favoritar a receita, marcar o progresso dos ingredientes, e ao finalizar, onde tem uma página para conferir as receitas já feitas. Acesse o link e confira.'
   }
 ]
