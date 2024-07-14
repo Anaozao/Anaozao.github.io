@@ -1,4 +1,4 @@
-import AboutMe from '../../Components/AboutMe/AbouteMe';
+import AboutMe from '../../Components/AboutMe/AboutMe';
 import styles from './Home.module.css'
 
 function Home() {
