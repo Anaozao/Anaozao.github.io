@@ -9,7 +9,7 @@ function AboutMe() {
       <h1 className={styles.title}>Quem sou eu?</h1>
       <div className={styles.paragraphDiv}>
         <p className={styles.paragraph}>Me chamo Túlio, 23 anos, atualmente estudante de Desenvolvimento Web Full Stack pela Trybe.</p>
-        <p className={styles.paragraph}>Concluí o modulo de Front End, e agora iniciando o Back Ed.</p>
+        <p className={styles.paragraph}>Concluí o modulo de Front End, e agora iniciando o Back End.</p>
         <p className={styles.paragraph}>Na seção de "Projetos", poderão conferir alguns dos projetos que desenvolvi até o momento.</p>
       </div>
       <div className={styles.skillsDiv}>
